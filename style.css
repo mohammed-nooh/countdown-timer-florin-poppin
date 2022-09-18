@@ -11,4 +11,29 @@ body{
     background-position: center center;
     min-height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+.countdown-container{
+    display: flex;
+    justify-content: center;
+}
+
+.big-text{
+    font-size: 6rem;
+    margin: 0 2rem;
+
+}
+
+.countdown-element{
+    text-align: center;
+}
+
+.countdown-element span{
+    font-size: 1.5rem;
 }
